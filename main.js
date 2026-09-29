@@ -24,11 +24,11 @@
   const { links } = data;
 
   // ---------- Hero ----------
-  document.title = `${data.name} — ${data.role}`;
+  document.title = `${data.name} | Software Engineer`;
   $("#brand").textContent = `<${data.name.split(" ")[0]} />`;
   $("#availability").textContent = data.availability || "";
   $("#hero-name").textContent = `Hi, I'm ${data.name}.`;
-  $("#hero-role").textContent = data.role + (data.location ? ` based in ${data.location}.` : ".");
+  $("#hero-role").textContent = `${data.role}.`;
   $("#hero-tagline").textContent = data.tagline;
 
   const actionButtons = [
