@@ -23,9 +23,9 @@ python3 -m http.server 8000
 
 ## Deploying (GitHub Pages)
 
-1. Merge into `main`.
-2. In the repo on GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. The workflow in `.github/workflows/deploy.yml` publishes the site on every push to `main`.
+1. In the repo on GitHub: **Settings → Pages → Build and deployment**.
+2. Set **Source** to **Deploy from a branch**, then choose **`main`** and **`/ (root)`** and click **Save**.
+3. GitHub republishes the site automatically on every push to `main`.
 
 Your site will be at `https://<username>.github.io/portfolio/`. To serve it at
 `https://<username>.github.io/`, rename the repository to `<username>.github.io`.
