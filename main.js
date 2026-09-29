@@ -25,10 +25,10 @@
 
   // ---------- Hero ----------
   document.title = `${data.name} | Software Engineer`;
-  $("#brand").textContent = `<${data.name.split(" ")[0]} />`;
+  $("#brand").textContent = data.name;
   $("#availability").textContent = data.availability || "";
-  $("#hero-name").textContent = `Hi, I'm ${data.name}.`;
-  $("#hero-role").textContent = `${data.role}.`;
+  $("#hero-name").textContent = data.name;
+  $("#hero-role").textContent = data.role;
   $("#hero-tagline").textContent = data.tagline;
 
   const actionButtons = [
@@ -40,7 +40,7 @@
   $("#hero-actions").innerHTML = actionButtons;
 
   $("#contact-actions").innerHTML = [
-    links.email ? `<a class="btn btn-primary" href="mailto:${escapeHtml(links.email)}">Say hello</a>` : "",
+    links.email ? `<a class="btn btn-primary" href="mailto:${escapeHtml(links.email)}">Email me</a>` : "",
     links.resume
       ? `<a class="btn btn-secondary" href="${escapeHtml(links.resume)}" target="_blank" rel="noopener">Download résumé</a>`
       : "",

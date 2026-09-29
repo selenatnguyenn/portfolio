@@ -5,9 +5,9 @@
 
 window.PORTFOLIO = {
   name: "Selena Nguyen",
-  role: "University of Maryland Information Science graduate",
+  role: "B.S. Information Science, University of Maryland",
   tagline:
-    "I build Python data pipelines, relational databases, and accessible web pages, and I'm looking for a full-time software engineering role.",
+    "Software engineer with experience in Java, Python, and SQL, specializing in data pipelines, relational database design, and accessible web development.",
   location: "College Park, MD",
   availability: "Open to full-time software engineering roles", // set to "" to hide
 
@@ -19,9 +19,9 @@ window.PORTFOLIO = {
   },
 
   about: [
-    "I'm a recent Information Science graduate from the University of Maryland with object-oriented programming experience in Java and Python, relational database design, and end-to-end ETL pipeline development.",
-    "Right now I build and validate Python data pipelines that benchmark frontier AI models. I reconcile messy, multi-format datasets into deterministic ground truth and write rubrics that catch subtle methodology errors.",
-    "I've also taught 200+ students as a teaching assistant and rebuilt a research lab's website from scratch, so I care about explaining technical work clearly and building things people can actually use.",
+    "I am an Information Science graduate from the University of Maryland with experience in object-oriented programming in Java and Python, relational database design, and end-to-end ETL pipeline development.",
+    "As an AI contractor with Handshake, I build and validate Python data pipelines used to benchmark frontier AI models, reconciling multi-format datasets into reliable ground truth and designing rubrics that surface methodology errors.",
+    "My experience as a teaching assistant for 200+ students and as the developer of a research lab's website has shaped how I work: I communicate technical ideas clearly and build with the end user in mind.",
   ],
 
   skills: {
@@ -49,9 +49,9 @@ window.PORTFOLIO = {
 
   experience: [
     {
-      title: "AI Evaluation Analyst",
-      company: "Handshake AI",
-      location: "Remote · Multimango Platform",
+      title: "AI Contractor",
+      company: "Handshake",
+      location: "Remote",
       dates: "May 2026 – Present",
       bullets: [
         "Build Python pipelines that ingest, clean, join, and reconcile 10+ file data packages spanning CSV, XLSX, JSON, and PDF (including sources over 10,000 rows) to establish deterministic ground truth for frontier model benchmarks.",
