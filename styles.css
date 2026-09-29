@@ -39,7 +39,7 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: radial-gradient(ellipse 45% 600px at 80% 280px, var(--blush), transparent 70%) no-repeat, var(--bg);
   color: var(--text);
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 17px;
@@ -207,22 +207,12 @@ a:hover {
 
 /* ---------- Hero ---------- */
 .hero {
-  position: relative;
-  isolation: isolate;
   min-height: calc(90vh - 64px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 48px;
   padding-bottom: 48px;
-}
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: radial-gradient(ellipse 55% 60% at 85% 40%, var(--blush), transparent 70%);
-  pointer-events: none;
 }
 .eyebrow {
   display: inline-flex;
